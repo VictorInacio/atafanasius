@@ -1,4 +1,4 @@
-(ns begin)
+(ns atafanasius.begin)
 
 (def first-message
   "Hi!
@@ -16,3 +16,10 @@
   This one has a fun quality of knowing a lot about all of the others
   My first-message to you ends here
   Bye! Hope see you again!")
+
+(declare your-name)
+
+(defn introduction []
+  (println "You know my name atafanasius")
+  (println "How can I name you?")
+  (read))
