@@ -1,0 +1,4 @@
+{:paths ["src"]              ; Paths to look for source files
+ :deps  {org.clojure/clojure {:mvn/version "1.11.1"}} ; Specify your dependencies
+ :aliases
+ {:run {:main-opts ["-m" "atafanasius.core"]}}}       ; Define an alias to start your main class
